@@ -1,0 +1,55 @@
+{
+  "title":"Will you be a Hero or a Vilain ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "What super power you`ll choose ?",
+      "options":[
+        {"id": 1, "name":"Laser Rays", "alias":"A"},
+        {"id": 2, "name":"Power to Fly", "alias":"B"},
+        {"id": 3, "name":"Exploding Things", "alias":"A"},
+        {"id": 4, "name":"Heal Wounds", "alias":"B"},
+        {"id": 5, "name":"Throw fire using your hands", "alias":"A"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Which one you choose to save first ?",
+      "options":[
+        {"id": 1, "name":"Children", "alias":"A"},
+        {"id": 2, "name":"Elderly", "alias":"A"},
+        {"id": 3, "name":"You do not know how to choose", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "What is your biggest concern when facing another X-men?",
+      "options":[
+        {"id": 1, "name":"Do not destroy buildings", "alias":"B"},
+        {"id": 2, "name":"Punch the enemy face", "alias":"A"},
+        {"id": 3, "name":"Do not get my clothes dirty", "alias":"A"},
+        {"id": 4, "name":"Do not allow nobody being hurt", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "What is your main focus ?",
+      "options":[
+        {"id": 1, "name":"To be rich with your powers", "alias":"A"},
+        {"id": 2, "name":"Save the city", "alias":"B"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "What is your X-men's nickname ?",
+      "options":[
+        {"id": 1, "name":"The Terrible", "alias":"A"},
+        {"id": 2, "name":"Neighborhood's Friend", "alias":"B"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "You will probably be a super vilain!",
+    "B": "You will probably be a Super Hero!"
+  }
+}
