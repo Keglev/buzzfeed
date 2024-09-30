@@ -72,3 +72,35 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.quizz__results h1 {
+  margin-bottom: 20px; /* Space between result header and the answer */
+}
+
+.quizz__results p {
+  margin-bottom: 30px; /* Space between answer text and the retake button */
+}
+
+.quizz__results .btn-option {
+  background-color: #18ab29;
+  border: 1px solid #18ab29;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 50%; /* Adjust the width to match other buttons */
+  text-align: center;
+}
+
+.quizz__results .btn-option:hover {
+  background-color: #5cbf2a;
+}
+
+.quizz__results .btn-option:active {
+  position: relative;
+  top: 1px;
+}

@@ -1,2 +1,9 @@
 <app-home></app-home>
+<div class="language-selector">
+  <h3>Please Select your language</h3>
+  <img src="../assets/imgs/us.png" (click)="switchLanguage('en')" alt="English" class="flag"/>
+  <img src="../assets/imgs/de.png" (click)="switchLanguage('de')" alt="German"  class="flag"/>
+  <img src="../assets/imgs/br.png" (click)="switchLanguage('pt')" alt="Portuguese"  class="flag"/>
+</div>
+
 <router-outlet />

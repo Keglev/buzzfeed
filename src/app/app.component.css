@@ -1,0 +1,30 @@
+.language-selector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.language-selector h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff; /* You can change the color as needed */
+}
+
+.language-selector .flag {
+  width: 40px;
+  height: auto;
+  margin: 0 10px; /* Adds space between the flags */
+  transition: opacity 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.language-selector .flag:hover {
+  opacity: 0.7;
+}
+
+.language-selector .flag:active{
+  position: relative;
+  top: 1px;
+  transform: scale(0.95);
+}

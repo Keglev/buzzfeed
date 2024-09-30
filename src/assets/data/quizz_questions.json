@@ -1,55 +1,167 @@
 {
-  "title":"Will you be a Hero or a Vilain ?",
-  "questions":[
-    {
-      "id":1,
-      "question": "What super power you`ll choose ?",
-      "options":[
-        {"id": 1, "name":"Laser Rays", "alias":"A"},
-        {"id": 2, "name":"Power to Fly", "alias":"B"},
-        {"id": 3, "name":"Exploding Things", "alias":"A"},
-        {"id": 4, "name":"Heal Wounds", "alias":"B"},
-        {"id": 5, "name":"Throw fire using your hands", "alias":"A"}
-      ]
-    },
-    {
-      "id":2,
-      "question": "Which one you choose to save first ?",
-      "options":[
-        {"id": 1, "name":"Children", "alias":"A"},
-        {"id": 2, "name":"Elderly", "alias":"A"},
-        {"id": 3, "name":"You do not know how to choose", "alias":"B"}
-      ]
-    },
-    {
-      "id":3,
-      "question": "What is your biggest concern when facing another X-men?",
-      "options":[
-        {"id": 1, "name":"Do not destroy buildings", "alias":"B"},
-        {"id": 2, "name":"Punch the enemy face", "alias":"A"},
-        {"id": 3, "name":"Do not get my clothes dirty", "alias":"A"},
-        {"id": 4, "name":"Do not allow nobody being hurt", "alias":"B"}
-      ]
-    },
-    {
-      "id":4,
-      "question": "What is your main focus ?",
-      "options":[
-        {"id": 1, "name":"To be rich with your powers", "alias":"A"},
-        {"id": 2, "name":"Save the city", "alias":"B"}
-      ]
-    },
-    {
-      "id":5,
-      "question": "What is your X-men's nickname ?",
-      "options":[
-        {"id": 1, "name":"The Terrible", "alias":"A"},
-        {"id": 2, "name":"Neighborhood's Friend", "alias":"B"}
-      ]
+  "en": {
+    "title": "Will you be a Hero or a Villain?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What super power will you choose?",
+        "options": [
+          { "id": 1, "name": "Laser Rays", "alias": "A" },
+          { "id": 2, "name": "Power to Fly", "alias": "B" },
+          { "id": 3, "name": "Exploding Things", "alias": "A" },
+          { "id": 4, "name": "Heal Wounds", "alias": "B" },
+          { "id": 5, "name": "Throw fire using your hands", "alias": "A" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Which one will you choose to save first?",
+        "options": [
+          { "id": 1, "name": "Children", "alias": "A" },
+          { "id": 2, "name": "Elderly", "alias": "A" },
+          { "id": 3, "name": "You do not know how to choose", "alias": "B" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "What is your biggest concern when facing another X-men?",
+        "options": [
+          { "id": 1, "name": "Do not destroy buildings", "alias": "B" },
+          { "id": 2, "name": "Punch the enemy in the face", "alias": "A" },
+          { "id": 3, "name": "Do not get my clothes dirty", "alias": "A" },
+          { "id": 4, "name": "Do not allow anyone to get hurt", "alias": "B" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "What is your main focus?",
+        "options": [
+          { "id": 1, "name": "To be rich with your powers", "alias": "A" },
+          { "id": 2, "name": "Save the city", "alias": "B" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "What is your X-men's nickname?",
+        "options": [
+          { "id": 1, "name": "The Terrible", "alias": "A" },
+          { "id": 2, "name": "Neighborhood's Friend", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "You will probably be a super villain!",
+      "B": "You will probably be a Super Hero!"
     }
-  ],
-  "results":{
-    "A": "You will probably be a super vilain!",
-    "B": "You will probably be a Super Hero!"
+  },
+  "de": {
+    "title": "Wirst du ein Held oder ein Bösewicht sein?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Welche Superkraft würdest du wählen?",
+        "options": [
+          { "id": 1, "name": "Laserstrahlen", "alias": "A" },
+          { "id": 2, "name": "Flugkraft", "alias": "B" },
+          { "id": 3, "name": "Dinge explodieren lassen", "alias": "A" },
+          { "id": 4, "name": "Wunden heilen", "alias": "B" },
+          { "id": 5, "name": "Feuer mit den Händen werfen", "alias": "A" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Wen würdest du zuerst retten?",
+        "options": [
+          { "id": 1, "name": "Kinder", "alias": "A" },
+          { "id": 2, "name": "Ältere Menschen", "alias": "A" },
+          { "id": 3, "name": "Du kannst dich nicht entscheiden", "alias": "B" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Was ist deine größte Sorge, wenn du einem anderen X-Men gegenüberstehst?",
+        "options": [
+          { "id": 1, "name": "Gebäude nicht zerstören", "alias": "B" },
+          { "id": 2, "name": "Dem Feind ins Gesicht schlagen", "alias": "A" },
+          { "id": 3, "name": "Meine Kleidung nicht schmutzig machen", "alias": "A" },
+          { "id": 4, "name": "Verhindern, dass jemand verletzt wird", "alias": "B" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Was ist dein Hauptziel?",
+        "options": [
+          { "id": 1, "name": "Mit deinen Kräften reich werden", "alias": "A" },
+          { "id": 2, "name": "Die Stadt retten", "alias": "B" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Was ist dein X-Men-Spitzname?",
+        "options": [
+          { "id": 1, "name": "Der Schreckliche", "alias": "A" },
+          { "id": 2, "name": "Der Freund der Nachbarschaft", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Du wirst wahrscheinlich ein Super-Bösewicht sein!",
+      "B": "Du wirst wahrscheinlich ein Superheld sein!"
+    }
+  },
+  "pt": {
+    "title": "Você será um herói ou um vilão?",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual superpoder você escolheria?",
+        "options": [
+          { "id": 1, "name": "Raios Laser", "alias": "A" },
+          { "id": 2, "name": "Poder de voar", "alias": "B" },
+          { "id": 3, "name": "Explodir coisas", "alias": "A" },
+          { "id": 4, "name": "Curar feridas", "alias": "B" },
+          { "id": 5, "name": "Lançar fogo com as mãos", "alias": "A" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Quem você escolheria salvar primeiro?",
+        "options": [
+          { "id": 1, "name": "Crianças", "alias": "A" },
+          { "id": 2, "name": "Idosos", "alias": "A" },
+          { "id": 3, "name": "Você não sabe como escolher", "alias": "B" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é sua maior preocupação ao enfrentar outro X-men?",
+        "options": [
+          { "id": 1, "name": "Não destruir os prédios", "alias": "B" },
+          { "id": 2, "name": "Dar um soco no rosto do inimigo", "alias": "A" },
+          { "id": 3, "name": "Não sujar minhas roupas", "alias": "A" },
+          { "id": 4, "name": "Não permitir que ninguém se machuque", "alias": "B" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual é seu principal objetivo?",
+        "options": [
+          { "id": 1, "name": "Ficar rico com seus poderes", "alias": "A" },
+          { "id": 2, "name": "Salvar a cidade", "alias": "B" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é o seu apelido de X-men?",
+        "options": [
+          { "id": 1, "name": "O Terrível", "alias": "A" },
+          { "id": 2, "name": "O Amigo do Bairro", "alias": "B" }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você provavelmente será um super vilão!",
+      "B": "Você provavelmente será um Super-Herói!"
+    }
   }
 }

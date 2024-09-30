@@ -1,22 +1,26 @@
 <div class="quizz__container">
   <div class="quizz__logo">
-    <img src="assets/imgs/logo.png" alt="">
+    <img src="assets/imgs/logo.png" alt="BuzzFeed Logo">
     <h3>{{title}}</h3>
   </div>
+
   <div *ngIf=!finished class="quizz__questions">
-    <h3>{{questionSelected.question}}</h3>
+    <h3>{{ questionSelected.question | translate }}</h3>
   </div>
+
   <div *ngIf=!finished class="quizz__options">
     <button
       *ngFor="let option of questionSelected.options; let i = index"
       (click)="playerChoose(option.alias)"
       class="btn-option"
-      >
-      {{option.name}}
+    >
+      {{ option.name | translate }}
     </button>
-  </div>
+    </div>
+
   <div *ngIf=finished class="quizz__results">
-    <h1>Your result is:</h1>
-    <p>{{answerSelected}}</p>
+    <h1>{{ 'RESULT' | translate }}</h1>
+    <p>{{ answerSelected | translate }}</p>
+    <button (click)="retakeQuiz()" class="btn-option">{{ 'RETAKE_QUIZ' | translate }}</button>
   </div>
-</div>
+
